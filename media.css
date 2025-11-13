@@ -1,0 +1,32 @@
+@media(max-width:1024px)
+{
+   .marketing-boxes{
+    flex-wrap: wrap;
+   }
+   .tesla-client{
+    flex-wrap: wrap;
+   }
+   .client-image{
+    flex-wrap: wrap;
+   }
+  
+}
+@media (max-width:786px){
+    .center-btn ul{
+        display: none;
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:991px){
+    .pixelgrade-text{
+        font-size: 14px;
+    }
+    
+    
+    /* .pana-text h1{
+        font-size: 25px;
+    } */
+}
