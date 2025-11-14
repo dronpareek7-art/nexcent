@@ -163,7 +163,7 @@
 }
 .pana {
   display: flex;
-
+margin-top: 30px;
   justify-content: space-evenly;
   width: 100%;
   gap: 50px;
@@ -347,12 +347,7 @@ input {
   
   /* margin: 26px 0; */
 }
-footer{
+.side-text1{
     position: relative ;
 }
-.send-icon {
-  position: absolute;
-  right: 20px;
-  bottom: 70px;
- 
-}
+
