@@ -1,32 +1,66 @@
-@media(max-width:1024px)
-{
-   .marketing-boxes{
+@media (max-width: 1024px) {
+  .marketing-boxes {
     flex-wrap: wrap;
-   }
-   .tesla-client{
+  }
+  .tesla-client {
     flex-wrap: wrap;
-   }
-   .client-image{
+  }
+  .client-image {
     flex-wrap: wrap;
-   }
-  
+    gap: 20px;
+  }
 }
-@media (max-width:786px){
-    .center-btn ul{
-        display: none;
-    }
-    .boxes{
-        flex-wrap: wrap;
-    }
-    
+
+@media (max-width: 991px) {
+  .pixelgrade-text {
+    font-size: 14px;
+  }
 }
-@media (max-width:991px){
-    .pixelgrade-text{
-        font-size: 14px;
+
+@media (max-width: 786px) {
+  .center-btn ul {
+    display: none;
+  }
+  .boxes {
+    flex-direction: column;
+  }
+  .box {
+    width: 80%;
+  }
+  .side-text1 {
+    padding: 0px;
+  }
+
+  .tesla,
+  .pixelgrade,
+  .lessons,
+  .pana,
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .helping {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .pana-text {
+    padding: 0 5px;
+  }
+}
+@media(max-width:827px){
+    .send-icon{
+        right: 277px;
+    bottom: 55px;
     }
-    
-    
-    /* .pana-text h1{
-        font-size: 25px;
-    } */
+}
+@media (max-width: 540px) {
+  .textof-lessons {
+    padding: 0 10px;
+  }
+  .pana-text {
+    padding: 0 10px;
+  }
+  .marketing-text {
+    width: 70%;
+  }
 }
